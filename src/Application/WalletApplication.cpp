@@ -60,7 +60,7 @@ namespace WalletGui {
 
 namespace {
 
-const char LUKA_URI_SCHEME_NAME[] = "cryptoluka";
+const char LNR_URI_SCHEME_NAME[] = "lonero";
 const QRegularExpression LOG_SPLASH_REG_EXP("\\[Core\\] Imported block with index");
 
 quint16 findPort() {
@@ -105,7 +105,7 @@ WalletApplication::WalletApplication(int& _argc, char** _argv) : QApplication(_a
   m_systemTrayIcon(new QSystemTrayIcon(this)), m_applicationEventHandler(new ApplicationEventHandler(this)),
   m_optimizationManager(nullptr), m_blogReader(new BlogReader(this)), m_mainWindow(nullptr), m_splash(nullptr),
   m_logWatcher(nullptr), m_isAboutToQuit(false) {
-  setApplicationName("LuKaWallet");
+  setApplicationName("LNRWallet");
   setApplicationVersion(Settings::instance().getVersion());
   setQuitOnLastWindowClosed(false);
   setStyle(QStyleFactory::create("fusion"));
@@ -153,9 +153,9 @@ bool WalletApplication::init() {
   }
 #endif
   if (!m_lockFile->tryLock()) {
-    WalletLogger::warning(tr("[Application] LuKa wallet already running"));
+    WalletLogger::warning(tr("[Application] Lonero wallet is already running"));
     if (!paymentUrl.isValid()) {
-      QMessageBox::warning(nullptr, QObject::tr("Fail"), "LuKa wallet already running");
+      QMessageBox::warning(nullptr, QObject::tr("Fail"), "Lonero wallet is already running");
     }
 
     return false;
@@ -263,7 +263,7 @@ bool WalletApplication::initCryptoNoteAdapter() {
       okButton->setText(QObject::tr("Ok"));
       dlg.addButton(okButton, QMessageBox::AcceptRole);
       dlg.setText(QObject::tr("The database is currently used by another application or service.\n"
-      "If you have lukad with non-default RPC port, you should terminate it and relaunch LuKaWallet\n"
+      "If you have lukad with non-default RPC port, you should terminate it and relaunch LNRWallet\n"
       "or\n"
       "Set the Local daemon required port in LuKaWallet Menu/Preferences/Connection settings."));
 	  if (m_splash != nullptr)

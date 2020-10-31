@@ -141,9 +141,9 @@ bool WalletApplication::init() {
   makeDataDir();
   WalletLogger::init(Settings::instance().getDataDir(), Settings::instance().hasDebugOption(), this);
   WalletLogger::info(tr("[Application] Initializing..."));
-  m_lockFile = new QLockFile(Settings::instance().getDataDir().absoluteFilePath("lukacoinwallet.lock"));
+  m_lockFile = new QLockFile(Settings::instance().getDataDir().absoluteFilePath("lnrcoinwallet.lock"));
   QUrl paymentUrl = QUrl::fromUserInput(arguments().last());
-  if (paymentUrl.scheme() != LUKA_URI_SCHEME_NAME) {
+  if (paymentUrl.scheme() != LNR_URI_SCHEME_NAME) {
     paymentUrl = QUrl();
   }
 

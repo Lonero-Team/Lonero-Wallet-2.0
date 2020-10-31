@@ -1,7 +1,7 @@
-Todo:
+### Todo:
 - Replace intensecoin image schemes  
 - Replace intensecoin logos with Lonero Logos  
-- Compile binaries
+- Compile binaries  
 --  
 
 Forked by:

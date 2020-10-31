@@ -2,7 +2,7 @@
 - Replace intensecoin image schemes  
 - Replace intensecoin logos with Lonero Logos  
 - Compile binaries  
---  
+---  
 
 Forked by:
 Portions Copyright (c) 2018, The Intense Coin developers

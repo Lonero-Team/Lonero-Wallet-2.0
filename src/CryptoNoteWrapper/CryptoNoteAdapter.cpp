@@ -33,7 +33,7 @@ namespace WalletGui {
 namespace {
 
 const int AUTO_CONNECTION_INTERVAL = 1000;
-const char OLD_CORE_LOG_FILE_NAME[] = "lukawallet.log";
+const char OLD_CORE_LOG_FILE_NAME[] = "lnrwallet.log";
 
 }
 

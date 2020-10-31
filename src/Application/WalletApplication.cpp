@@ -263,9 +263,9 @@ bool WalletApplication::initCryptoNoteAdapter() {
       okButton->setText(QObject::tr("Ok"));
       dlg.addButton(okButton, QMessageBox::AcceptRole);
       dlg.setText(QObject::tr("The database is currently used by another application or service.\n"
-      "If you have lukad with non-default RPC port, you should terminate it and relaunch LNRWallet\n"
+      "If you have forknoted with non-default RPC port, you should terminate it and relaunch LNRWallet\n"
       "or\n"
-      "Set the Local daemon required port in LuKaWallet Menu/Preferences/Connection settings."));
+      "Set the Local daemon required port in LNRWallet Menu/Preferences/Connection settings."));
 	  if (m_splash != nullptr)
 		  m_splash->hide();
       dlg.exec();

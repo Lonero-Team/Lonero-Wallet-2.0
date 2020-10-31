@@ -180,7 +180,7 @@ if (WIN32)
 
   set(PLATFORM_DIR Windows)
   set(BUILD_PLATFORM WIN32)
-  set(BUILD_RESOURCES src/LNRwallet.rc)
+  set(BUILD_RESOURCES src/lnrwallet.rc)
   set(QTMAIN Qt5::WinMain)
 
 elseif (UNIX)

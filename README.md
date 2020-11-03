@@ -3,6 +3,7 @@
 - Change "older version graphics" see folders
 - Replace intensecoin logos with Lonero Logos  
 - Update **CryptoNoteConfig.h**
+- Update **CryptoNoteCore/Currency.cpp**
 - Compile binaries  
 ---  
 

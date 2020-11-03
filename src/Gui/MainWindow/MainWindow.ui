@@ -981,7 +981,7 @@
     <bool>true</bool>
    </property>
    <property name="text">
-    <string>About LuKa</string>
+    <string>About Lonero</string>
    </property>
   </action>
   <action name="m_aboutQtAction">

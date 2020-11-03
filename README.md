@@ -1,6 +1,7 @@
 ### Todo:
 - Replace intensecoin image schemes  
 - Replace intensecoin logos with Lonero Logos  
+- Update **CryptoNoteConfig.h**
 - Compile binaries  
 ---  
 

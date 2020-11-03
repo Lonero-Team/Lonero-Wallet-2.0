@@ -635,7 +635,7 @@ public:
 #ifndef QT_NO_TOOLTIP
         m_changePasswordAction->setToolTip(QApplication::translate("MainWindow", "Change password", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        m_aboutIntensecoinAction->setText(QApplication::translate("MainWindow", "About LuKa", Q_NULLPTR));
+        m_aboutIntensecoinAction->setText(QApplication::translate("MainWindow", "About LNR", Q_NULLPTR));
         m_aboutQtAction->setText(QApplication::translate("MainWindow", "About Qt", Q_NULLPTR));
         m_backupWalletAction->setText(QApplication::translate("MainWindow", "Backup wallet", Q_NULLPTR));
         m_autostartAction->setText(QApplication::translate("MainWindow", "Start on system login", Q_NULLPTR));
@@ -680,7 +680,7 @@ public:
         m_balanceCopyLabel->setText(QApplication::translate("MainWindow", "Copied!", Q_NULLPTR));
         m_balanceIconLabel->setText(QString());
         m_overviewButton->setText(QApplication::translate("MainWindow", "OVERVIEW", Q_NULLPTR));
-        m_sendButton->setText(QApplication::translate("MainWindow", "SEND LUKAS", Q_NULLPTR));
+        m_sendButton->setText(QApplication::translate("MainWindow", "SEND LNR", Q_NULLPTR));
         m_transactionsButton->setText(QApplication::translate("MainWindow", "TRANSACTIONS", Q_NULLPTR));
         m_blockExplorerButton->setText(QApplication::translate("MainWindow", "BLOCK EXPLORER", Q_NULLPTR));
         m_addressBookButton->setText(QApplication::translate("MainWindow", "CONTACTS", Q_NULLPTR));

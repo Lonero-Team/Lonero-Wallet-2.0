@@ -72,8 +72,8 @@ MainWindow& MainWindow::instance() {
 namespace {
 
 const int MAX_RECENT_WALLET_COUNT = 10;
-const char COMMUNITY_FORUM_URL[] = "https://cryptoluka.herokuapp.com";
-const char REPORT_ISSUE_URL[] = "https://cryptoluka.cl";
+const char COMMUNITY_FORUM_URL[] = "https://gitter.im/Decentralized-Internet/community?source=orgpage";
+const char REPORT_ISSUE_URL[] = "https://lonero-team.github.io/helpdesk/";
 
 const char DONATION_URL_DONATION_TAG[] = "donation";
 const char DONATION_URL_LABEL_TAG[] = "label";
@@ -119,7 +119,7 @@ MainWindow::MainWindow(ICryptoNoteAdapter* _cryptoNoteAdapter, IAddressBookManag
   m_addRecipientAction(new QAction(this)), m_styleSheetTemplate(_styleSheetTemplate), m_walletStateMapper(new QDataWidgetMapper(this)),
   m_syncMovie(new QMovie(Settings::instance().getCurrentStyle().getWalletSyncGifFile(), QByteArray(), this)) {
   m_ui->setupUi(this);
-  setWindowTitle(tr("LuKa Wallet %1").arg(Settings::instance().getVersion()));
+  setWindowTitle(tr("Lonero Wallet %1").arg(Settings::instance().getVersion()));
   m_addRecipientAction->setObjectName("m_addRecipientAction");
   m_cryptoNoteAdapter->addObserver(this);
   m_cryptoNoteAdapter->getNodeAdapter()->getWalletAdapter()->addObserver(this);

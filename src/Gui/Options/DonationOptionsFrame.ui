@@ -161,7 +161,7 @@
          </size>
         </property>
         <property name="text">
-         <string>Donation mining allows you to contribute a fixed share of your in-wallet mining profit to a Lonero address of you choice.</string>
+         <string>Donation mining allows you to contribute a fixed share of your in-wallet mining profit to a Lonero address of your choice.</string>
         </property>
         <property name="wordWrap">
          <bool>true</bool>

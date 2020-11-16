@@ -81,7 +81,7 @@
       <item alignment="Qt::AlignTop">
        <widget class="WalletGui::WalletSmallGrayTextLabel" name="m_autoHelperLabel">
         <property name="text">
-         <string>Wallet will connect to a local Loneor daemon process on port 34414. In case of no local daemon running it will use an in-wallet embedded node implementation.</string>
+         <string>Wallet will connect to a local Lonero daemon process on port 34414. In case of no local daemon running it will use an in-wallet embedded node implementation.</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

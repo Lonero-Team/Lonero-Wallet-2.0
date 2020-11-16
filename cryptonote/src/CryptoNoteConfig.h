@@ -38,8 +38,8 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V4          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
-const uint64_t MONEY_SUPPLY									= UINT64_C(10000000000000000); // 100M
-const uint64_t FINAL_SUBSIDY_PER_MINUTE						= UINT64_C(20000000); // 0.20 LUK
+const uint64_t MONEY_SUPPLY									= UINT64_C(8500000000000000); // 85M
+const uint64_t FINAL_SUBSIDY_PER_MINUTE						= UINT64_C(20000000); // 0.20 LNR
 const unsigned EMISSION_SPEED_FACTOR                        = 22;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
@@ -103,7 +103,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      	= "miner_conf.json
 } // parameters
 
 
-const char     CRYPTONOTE_NAME[]                             = "Luka";
+const char     CRYPTONOTE_NAME[]                             = "Lonero";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -119,8 +119,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  128;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  52420;
-const int      RPC_DEFAULT_PORT                              =  52421;
+const int      P2P_DEFAULT_PORT                              =  34414;
+const int      RPC_DEFAULT_PORT                              =  34415;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -139,10 +139,9 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[] = "";
 
 const char* const SEED_NODES[] = {
-	"seed79.cryptoluka.cl:52420",
-	"seed80.cryptoluka.cl:52420",
-	"seed152.cryptoluka.cl:52420",
-	"seed219.cryptoluka.cl:52420"
+	"163.47.10.66:34414",
+	"142.93.171.115:34414,
+	"178.128.110.231:34414"
 };
 
 struct CheckpointData {
@@ -151,24 +150,7 @@ struct CheckpointData {
 };
 
 const CheckpointData CHECKPOINTS[] = {
-	{ 0, "3e7b089856003ff9706e8db0a530bfec03d91143491086a2835fcdc2a38373e0"}, // Genesis
-	{ 163, "b96a73c6d78c40ccd08e7f8578e2fb57395348eab0d0e5b4ad778783e89fa621"},
-	{ 164, "57b496b43159e766da46cacf307e06183c3832e65225941b297bcd124e3c3e5b"}, // Dead Peer
-	{ 165, "e15372c7a3ad29dbcf4009b4f9ed43586777b046650b81c2d56ca5dbc6a935e6"},
-	{ 18000, "4a0fd7a883ca5a180aaec36cbc1c2c204ef2f703170851b61e1de035e32b1613"},
-	{ 25900, "1183f7d7de6aaeae755e626614df0ef9610bf2df24d032bb7a1d0f9f2650a08a"},
-	{ 27483, "7c485abdc0418ccab03ba2dc57087db89b83721744d2beb0a17cc7ae9e694f07"}, // Fork V1.2 - Emission
-	{ 50000, "2e61795dd2e3cc5730299fc5f0ac51ecf97b4b5e798c71a212a101b549ca0a4c"}, // 50k
-	{ 100000, "118b28b5e31a5f84c83cf3f08be5baee7605b0f600c92cfbf329f18a60658235"}, // 100k
-	{ 117455, "fc4b46ea4d36c3ca8e0a98022afbf92c39754e6cdb0dbf4f2dba2af6af0966c6"},
-  	{ 132200, "20a3112cf291a3f36ce7a7df3ced26b1d3676b4ff19d75af0d60c32fb75e5cba"}, // Fix Checkpoint
-  	{ 145000, "13de5c33a257f60503b895e14dcc044da676631f190388f828751ab5c4078f0d"}, // 145k - LWMA 
-  	{ 200000, "c916a3fe696c973320a2e101cd89580135772a71e0cd1d3a001ceca874e657ce"}, // 200k
-	{ 250000, "c4c1a03e4375f73259c882e9c28e9e6f0a20348ce10cec2a5d2c72069f2e5a63"}, // 250k
-	{ 300000, "fa4328093fc1f0162923533aaf256e496d7032d24697b2ccd27cbf83f2e3cae1"}, // 300k
-	{ 315000, "3bb15575b5e639b477d9eaf3e0465e3c45be87ab5de049925425159454f8c282"}, // 315k
-	{ 539200, "ed6e6e11b7d4dbedcaa3f8d4bff0435bc5cf6a09dd2ee32d852f08457abc95d3"} // 539200 - POW CHECK
-
+	{ 0, "010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121015b0c79cbe5d56eabc00fa878e966998362424476714a544caad6c1aac954702a"}, // Genesis
 };
 }
 

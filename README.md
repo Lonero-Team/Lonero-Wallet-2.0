@@ -28,7 +28,7 @@ Luka es la nueva Cryptomoneda de origen Chileno, la cual nace de un impulso de c
 Compila tu LUK ya.
 
 
-## 💾 Unix Installation
+## 💾 Installation
 
 
 ```bash

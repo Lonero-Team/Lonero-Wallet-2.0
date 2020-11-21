@@ -28,18 +28,18 @@ Luka es la nueva Cryptomoneda de origen Chileno, la cual nace de un impulso de c
 Compila tu LUK ya.
 
 
-## 💾 Instalación UNIX
+## 💾 Unix Installation
 
 
 ```bash
 $ apt-get update
 $ apt-get upgrade
 $ apt-get install qtbase5-dev libssl-dev cmake git libboost1.58-all-dev build-essential g++
-$ git clone https://github.com/cryptoluka/cryptoluka
-$ cd cryptoluka/
+$ git clone https://github.com/Lonero-Team/Lonero-Wallet-2.0
+$ cd Lonero-Wallet-2.0/
 $ cmake CMakeLists.txt
 $ make -j 8
-$ cd cryptonote/
+$ cd Lonero-Wallet-2.0/
 $ make -j 8
 ```
 

@@ -49,7 +49,7 @@ Despues de la compilación con exito, haz click en el binario LUK. Se empieza el
 
 Se quieres minar con tu CPU, oprima el boton "Start Mining".
 
-<img src="https://i.imgur.com/PKGrDeZ.png">
+<img src="https://raw.githubusercontent.com/Mentors4EDU/Images/master/Untitled%20design(347).png">
 
 ## License
 The Wallet GUI falls under the *GNU General Public License v3.0*

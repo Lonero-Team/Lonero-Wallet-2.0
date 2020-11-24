@@ -23,9 +23,7 @@
 
 <img src="https://raw.githubusercontent.com/Mentors4EDU/Images/master/banner.png">
 
-Luka es la nueva Cryptomoneda de origen Chileno, la cual nace de un impulso de creatividad y las ganas de expandir el concepto de las crypto y todo lo relacionado a blockchain y sus utilidades.
-
-Compila tu LUK ya.
+This is the GUI wallet for Lonero's (LNR) crypto. [Lonero](https://lonero.org) is working on a variety of things from its digital crypto to a decentralized internet. To get started downloding Lonero's GUI wallet, you can view the installation guide below:
 
 
 ## 💾 Installation

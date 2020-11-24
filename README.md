@@ -43,7 +43,7 @@ $ cd Lonero-Wallet-2.0/
 $ make -j 8
 ```
 
-## Uso
+## Usage
 
 Despues de la compilación con exito, haz click en el binario LUK. Se empieza el nodo y se sincroniza con peers. No te olvides de exportar tu llave privada antes de crear una contraseña a tu cartera.
 

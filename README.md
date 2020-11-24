@@ -7,6 +7,8 @@
 - Update **CryptoNoteCore/Currency.cpp**
 - Compile binaries  
 
+---
+
 ..................................................................................................
 
 **Forked from:**  

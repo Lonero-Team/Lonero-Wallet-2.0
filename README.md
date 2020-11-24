@@ -6,13 +6,16 @@
 - Please add more seednode and mark dead ones with // comment
 - Update **CryptoNoteCore/Currency.cpp**
 - Compile binaries  
----  
+
+...........................................................................................................................
 
 **Forked from:**  
 *Luke Copyright (c) 2018-2019, The Crypto Luka Developers*  
 *Portions Copyright (c) 2018, The Intense Coin developers*  
 *Copyright (c) 2014-2017, The Monero Project Portions*  
 *Copyright (c) 2012-2013, The Cryptonote developers*
+
+---  
 
 # Lonero Wallet
 

@@ -48,9 +48,9 @@ $ make -j 8
 
 ## Usage
 
-Despues de la compilación con exito, haz click en el binario LUK. Se empieza el nodo y se sincroniza con peers. No te olvides de exportar tu llave privada antes de crear una contraseña a tu cartera.
+After you compile, click on the binary for Lonero. The node should start synchronizing given you are opening the wallet. Make sure to export your private key before the password is created, and store the key in a safe place.
 
-Se quieres minar con tu CPU, oprima el boton "Start Mining".
+To start mining, click on the button saying "Start Mining".
 
 <img src="https://raw.githubusercontent.com/Mentors4EDU/Images/master/Untitled%20design(347).png">
 

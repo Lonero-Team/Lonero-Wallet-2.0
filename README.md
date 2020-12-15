@@ -1,14 +1,3 @@
-### Todo:
-- Replace intensecoin image schemes  
-- Change "older version graphics" see folders
-- Replace intensecoin logos with Lonero Logos  
-- Update **CryptoNoteConfig.h**
-- Please add more seednode and mark dead ones with // comment
-- Update **CryptoNoteCore/Currency.cpp**
-- Compile binaries  
-
----
-
 ..................................................................................................
 
 **Forked from:**  

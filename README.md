@@ -1,7 +1,7 @@
 ..................................................................................................
 
 **Forked from:**  
-*Luke Copyright (c) 2018-2019, The Crypto Luka Developers*  
+*Luka Copyright (c) 2018-2019, The Crypto Luka Developers*  
 *Portions Copyright (c) 2018, The Intense Coin developers*  
 *Copyright (c) 2014-2017, The Monero Project Portions*  
 *Copyright (c) 2012-2013, The Cryptonote developers*
